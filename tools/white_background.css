@@ -1,0 +1,92 @@
+body {
+    background-color: white !important;
+    margin: 0;
+    padding: 60px;
+    font-size: 18px !important;
+}
+
+.mermaid {
+    background-color: white !important;
+    font-size: 18px !important;
+}
+
+svg {
+    background-color: white !important;
+    font-size: 18px !important;
+}
+
+.node {
+    font-size: 18px !important;
+    margin: 15px !important;
+}
+
+.edgeLabel {
+    font-size: 16px !important;
+}
+
+/* Target subgraph titles specifically */
+.cluster-label {
+    font-size: 18px !important;
+    font-weight: bold !important;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+/* Alternative selectors for subgraph titles */
+.cluster text {
+    font-size: 18px !important;
+    font-weight: bold !important;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.cluster .label {
+    font-size: 18px !important;
+    font-weight: bold !important;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+/* Target all text elements in clusters */
+.cluster text, .cluster-label, .cluster .label {
+    font-size: 18px !important;
+    font-weight: bold !important;
+    fill: black !important;
+    stroke: none !important;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+/* Add spacing for clusters */
+.cluster {
+    margin: 50px !important;
+    padding: 30px !important;
+}
+
+/* Ensure proper spacing between elements */
+g {
+    margin: 15px !important;
+}
+
+/* Specific targeting for main AWS Cloud cluster */
+.cluster:first-child {
+    margin-top: 80px !important;
+    padding-top: 40px !important;
+}
+
+/* Target the main AWS Cloud label specifically */
+.cluster:first-child .cluster-label,
+.cluster:first-child text {
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+} 
